@@ -1,0 +1,84 @@
+#------------------------------
+# Hexo Theme Fluid 主题自定义配置
+#------------------------------
+favicon: /img/duck.png
+apple_touch_icon: /img/duck.png
+index:
+  banner_img: /img/yoshihara-mi.jpg # https://i.loli.net/2020/10/18/VzQbHUhteGISZ3P.jpg
+  banner_mask_alpha: 0.5
+  slogan:
+    text: "船到桥头自然直，柳暗花明又一村"
+navbar:
+  blog_title: ""
+  ground_glass:
+    enable: true
+color:
+  navbar_bg_color: "#966d8a"
+post:
+  banner_img: https://api.codeanime.cn/animation/random.php # /img/001.jpg
+archive:
+  banner_img: /img/page_top/002.jpg # https://api.codeanime.cn/animation/random.php # /img/002.jpg
+category:
+  banner_img: /img/page_top/003.jpg # https://api.codeanime.cn/animation/random.php # /img/003.jpg
+tag:
+  banner_img: /img/page_top/004.jpg # https://api.codeanime.cn/animation/random.php # /img/004.jpg
+page:
+  banner_img: /img/page_top/005.jpg # https://api.codeanime.cn/animation/random.php # /img/006.jpg
+about:
+  banner_img: /img/page_top/006.jpg # https://api.codeanime.cn/animation/random.php # /img/005.jpg
+  avatar: /img/avatar.jpg
+  name: "王德发"
+  intro: "一个秃头后端😏"
+  icons:
+    - { class: "iconfont icon-github-fill", link: "https://github.com/Wenenenenen", tip: "GitHub" }
+    - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
+    - { class: "iconfont icon-wechat-fill", qrcode: "/img/wechat.jpg" }
+links:
+  banner_img: /img/page_top/001.jpg # https://api.codeanime.cn/animation/random.php # /img/004.jpg
+  onerror_avatar: /img/641.jpg
+  items:
+    - {
+      title: "Fluid Blog",
+      intro: "主题博客",
+      link: "https://hexo.fluid-dev.com/",
+      avatar: "/img/fluid.png"
+    }
+    - {
+      title: "Fluid Docs",
+      intro: "主题使用指南",
+      link: "https://hexo.fluid-dev.com/docs/",
+      avatar: "/img/fluid.png"
+    }
+    - {
+      title: "Fluid Repo",
+      intro: "主题 GitHub 仓库",
+      link: "https://github.com/fluid-dev/hexo-theme-fluid",
+      avatar: "/img/fluid.png"
+    }
+    - {
+      title: "SM.MS",
+      intro: "图床网站",
+      link: "https://sm.ms/",
+      avatar: "https://sm.ms/favicon.ico"
+    }
+    - {
+      title: "Chevereto",
+      intro: "图床网站",
+      link: "https://che.codeanime.xyz/",
+      avatar: "https://che.codeanime.xyz/content/images/system/default/favicon.png"
+    }
+    - {
+      title: "Lsky",
+      intro: "图床网站",
+      link: "https://cn.codeanime.xyz/",
+      avatar: "https://cn.codeanime.xyz/favicon.ico"
+    }
+    - {
+      title: "吹比",
+      intro: "图床网站",
+      link: "https://chuibi.cn/",
+      avatar: "/img/favicon.png"
+    }
+fun_features:
+  typing:
+    scope: [ home , post ]
